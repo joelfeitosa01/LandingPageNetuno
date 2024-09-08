@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pg01 {
+    background-color: rgb(26, 127, 189);
+    width: 100vw;
+    height: 240vh;
+}
+
+#form {
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#oprojeto {
+    width: 80vw;
+    margin: auto;
+    color: white;
+}
+
+#oprojeto > h2 {
+    margin: 30px ;
+}
+
+#oproblema {
+    width: 80vw;
+    margin: auto;
+    color: black;
+}
+
+#oproblema > h2 {
+    margin-top: 30px;
+}
+
+#group98 {
+    width: 80vw;
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#pg02 {
+    margin-top: 10px;
+}
+
+#union {
+    width: 100vw;
+    z-index: 0;
+}
+
+#pilares {
+    background-image: url(../imagens/Union.png);
+    z-index: 1;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#pilares > div {
+    width: 70vw;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0vh 20vh 20vh rgba(0, 0, 0, 0.200);
+}
+
+#pilares > div > h3 {
+    margin: 10px;
+}
+
+#jornada {
+    width: 80vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#jornada > div {
+    background-color: rgb(26, 127, 189);
+    color: white;
+    margin: 8px;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+#jornada > h3 {
+    color: rgb(26, 127, 189);
+    width: 120px;
+    margin: 10px auto;
+    padding: auto;
+}
+
+#jornada > div > img {
+    width: 25px;
+    padding: 13px;
+    margin: 8px;
+    border-radius: 8px;
+    background-color: white;
+    color: rgb(26, 127, 189);
+}
+
+#jornada > div > p {
+    margin: auto;
+}
+
+#botao2 {
+    width: 75vw;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto auto auto;
+}
+
+#botao2 > img {
+    margin: 6vw;
+}
+
+#botao2 > p {
+    margin-left: 10vw;
+}
+
+#botao2:hover {
+    background-color: rgb(26, 127, 189);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#botao2:hover > p, b {
+    color: #fff;
+}
+
+#vector1 {
+    display: flex;
+    width: 35vw;
+    margin: 20px auto;
+}
+
+#endsection {
+    background-color: rgb(26, 127, 189);
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#objetivos {
+    display: flex;
+    flex-direction: column;
+}
+
+#objetivos > section {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 80vw;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+#h2 {
+    color: white;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+footer {
+    background-color: black;
+    color: white; 
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid white;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 5vw;
+    margin: 10px;
+}
